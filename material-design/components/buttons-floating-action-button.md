@@ -15,21 +15,21 @@
 - 默认尺寸：适用于多数应用情况。
 - 迷你尺寸：仅用于创建与其他屏幕元素视觉的连续性。
 
-![](../images/6_1.png)   
+<img src="../images/6_1.png" alt="" width=240 height=426 />
 
 浮动操作按钮
 
-![](../images/6_2.png)   
+<img src="../images/6_2.png" alt="" width=240 height=426 />   
 
 迷你浮动操作按钮
 
 浮动操作按钮应至少放在距手机边缘 16dp 或电脑/台式机边缘 24dp 的地方。
 
-![](../images/6_3.png)   
+<img src="../images/6_3.png" alt="" width=360 height=270 />     
 
 浮动操作按钮红线。
 
-![](../images/6_4.png)   
+<img src="../images/6_4.png" alt="" width=360 height=270 />    
 
 迷你浮动操作按钮红线
 
@@ -50,26 +50,31 @@
 
 不是每个屏幕都需要浮动操作按钮。一个浮动操作按钮能够代表这个 App 中的主要操作
 
-![](../images/6_5.png)
-正确：主要操作是在画廊里触摸图片，所以不需要任何按钮。
+<img src="../images/6_5.png" alt="" width=240 height=426 />
 
-![](../images/6_6.png)
-正确：主要操作是添加文件夹。
+<p> <font color="green">(上图)可取：主要操作是在画廊里触摸图片，所以不需要任何按钮。</font></p>
+
+<img src="../images/6_6.png" alt="" width=240 height=426 />
+
+<p> <font color="green">(上图)可取：主要操作是添加文件夹。</font></p>
 
 一个屏幕只推荐使用一个浮动操作按钮来增加其显著性。它应该只代表最常见的操作。
 
-![](../images/6_7.png)
-错误
+<img src="../images/6_7.png" alt="" width=240 height=426 />   
 
-![](../images/6_8.png)
-错误
+<p> <font color="red">(上图)不可取</font></p>
+
+<img src="../images/6_8.png" alt="" width=240 height=426 />  
+
+<p> <font color="red">(上图)不可取</font></p>
 
 ### 特性   
 
 用浮动操作按钮进行积极的操作，如创建、收藏、分享、浏览和探索。
 
-![](../images/6_9.png)
-正确
+![](../images/6_9.png)   
+
+<p> <font color="green">(上图)可取</font></p>
 
 避免用浮动操作按钮进行下面这些轻微破坏性操作：
 - 存档或删除
@@ -80,24 +85,29 @@
 
 浮动操作按钮不包含 app 图标或状态栏通知。不要把证章或者其他元素层叠在浮动操作按钮上
 
-![](../images/6_10.png)
-错误
+![](../images/6_10.png)   
+
+<p> <font color="red">(上图)不可取</font></p>
 
 APP 主要操作的图案强制使用圆形图标
 
-![](../images/6_11.png)
-正确
+<img src="../images/6_11.png" alt="" width=240 height=171 />  
 
-![](../images/6_12.png)
-错误
+<p> <font color="green">(上图)可取</font></p>
+
+<img src="../images/6_12.png" alt="" width=240 height=171 /> 
+
+<p> <font color="red">(上图)不可取</font></p>
 
 不要给浮动操作按钮额外的维度。
 
-![](../images/6_13.png)
-正确
+<img src="../images/6_13.png" alt="" width=240 height=171 />    
 
-![](../images/6_14.png)
-错误
+<p> <font color="green">(上图)可取</font></p>
+
+<img src="../images/6_13.png" alt="" width=240 height=171 /> 
+
+<p> <font color="red">(上图)不可取</font></p>
 
 
 ## 运行方式   
@@ -124,14 +134,14 @@ APP 主要操作的图案强制使用圆形图标
 <source src="http://materialdesign.qiniudn.com/videos/components-buttons-fab-behavior_03_xhdpi_001.mp4">
 </video>
 
-正确
+<p> <font color="green">(上图)可取</font></p>
 
 <video crossorigin="anonymous"  loop  controls width="760" height="350">
 <source src="http://materialdesign.qiniudn.com/videos/components-buttons-fab-behavior_04_xhdpi_009.mp4">
 </video>
 
 
-正确
+<p> <font color="green">(上图)可取</font></p>
 
 对于带有标签的屏幕，浮动操作按钮不应朝着屏幕退出时的同一方向退出屏幕。否则会导致视觉噪音。这也将导致在屏幕上出现一个失灵的浮动操作按钮。此外，它错误地暗示了浮动操作按钮与内容在相同的 Z 水平高度上，而不是在根水平高度中 UI 主元素所在的水平高度的上。
 
@@ -139,13 +149,13 @@ APP 主要操作的图案强制使用圆形图标
 <source src="http://materialdesign.qiniudn.com/videos/components-buttons-fab-behavior_05_xhdpi_009.mp4">
 </video>
 
-错误
+<p> <font color="red">(上图)不可取</font></p>
 
 <video crossorigin="anonymous"  loop  controls width="760" height="350">
 <source src="http://materialdesign.qiniudn.com/videos/components-buttons-fab-behavior_06_xhdpi_009.mp4">
 </video>
 
-错误
+<p> <font color="red">(上图)不可取</font></p>
 
 ## 过渡   
 
@@ -205,11 +215,13 @@ App 通常使用一个单一的浮动操作按钮。然而，本例使用了两�
 
 如果一个浮动行为按钮变成一个工具栏，那么这个工具栏应包含相关的操作功能。
 
-![](../images/6_15.png)
-正确：在这个例子中，按钮可以让用户选择媒体类型来添加。
+![](../images/6_15.png)   
 
-![](../images/6_16.png)
-错误：不要包括不相关或者混乱不清的操作。
+<p> <font color="green">(上图)可取：在这个例子中，按钮可以让用户选择媒体类型来添加。</font></p>
+
+![](../images/6_16.png)   
+
+<p> <font color="red">(上图)不可取：不要包括不相关或者混乱不清的操作。</font></p>
 
 ### 快速拨号   
 
@@ -233,7 +245,7 @@ App 通常使用一个单一的浮动操作按钮。然而，本例使用了两�
 <source src="http://materialdesign.qiniudn.com/videos/components-buttons-fab-transition_card_01.mp4">
 </video>
 
-一个浮动按钮转变为一个 materila 单页
+一个浮动按钮转变为一个 material 单页
 
 <video crossorigin="anonymous"  loop  controls width="760" height="350">
 <source src="http://materialdesign.qiniudn.com/videos/components-buttons-fab-transition_card_02.mp4">
@@ -245,48 +257,61 @@ App 通常使用一个单一的浮动操作按钮。然而，本例使用了两�
 
 通过给予用最好、最显眼以及最少的选项来减少选择疲劳。
 
-![](../images/6_17.png)
+<img src="../images/6_17.png" alt="" width=240 height=426 />   
+
 一个浮动操作按钮至少应该弹出三个以上的选项。
 
-![](../images/6_18.png)
+<img src="../images/6_18.png" alt="" width=240 height=426 />  
+
 一个浮动操作按钮应该弹出不超过六个选项。
 
 不要在浮动操作按钮的选项中放置外链按钮。从原始屏幕到目的页面应该最多两次点击。
 
-![](../images/6_19.png)
+<img src="../images/6_19.png" alt="" width=360 height=256 />  
+  
+
 选项应该指明目的页面。
 
-![](../images/6_20.png)
+<img src="../images/6_20.png" alt="" width=360 height=256 />   
+
 选项不应该包含外链菜单。
 
 将外链操作放置在工具栏的外链菜单中，而不是放置在浮动操作按钮中。
 
-![](../images/6_21.png)
+<img src="../images/6_21.png" alt="" width=360 height=256 />    
+
 外链菜单在工具栏中。
 
-![](../images/6_22.png)
+<img src="../images/6_22.png" alt="" width=360 height=256 />
+
 外链菜单在工具栏中。
 
-![](../images/6_23.png)
+<img src="../images/6_23.png" alt="" width=360 height=256 />  
+
 浮动操作按钮并非弹出菜单。
 
-![](../images/6_24.png)
+<img src="../images/6_24.png" alt="" width=360 height=256 />   
+
 浮动操作按钮并非弹出菜单。
 
 如果一个应用的主题时添加文件类型，浮动操作按钮在首次被点击后可以转换为相关的操作。如果出现的操作是与按钮不相关的，将操作放到弹出菜单中。
 
-![](../images/6_25.png)
+![](../images/6_25.png)   
+
 浮动操作按钮可以转变为相关操作。
 
-![](../images/6_26.png)
+![](../images/6_26.png)   
+ 
 浮动操作按钮不应该转变为不相关的操作。
 
 浮动操作按钮可以包含一个联系人列表。这个列表不应该包含不相关的操作。
 
-![](../images/6_27.png)
+<img src="../images/6_27.png" alt="" width=240  />  
+
 浮动操作按钮可以转变为一个联系人列表。
 
-![](../images/6_28.png)
+<img src="../images/6_28.png" alt="" width=240 height= />   
+
 浮动操作按钮不应该转变为不相关的操作。
 
 ### 变形   
@@ -334,27 +359,30 @@ App 通常使用一个单一的浮动操作按钮。然而，本例使用了两�
 
 浮动操作按钮可以附属到一个扩展的 app bar。
 
-![](../images/6_29.png)
-正确
+<img src="../images/6_29.png" alt="" width=380 height=285 /> 
+
+<p> <font color="green">(上图)可取</font></p>
 
 浮动操作按钮可以被附属到单页中的一个工具栏或者结构化元素（只要没有阻碍其他元素）。
 
-![](../images/6_30.png)
-正确
+<img src="../images/6_30.png" alt="" width=380 height=285 />    
+
+<p> <font color="green">(上图)可取</font></p>
 
 浮动操作按钮可以被附属到一个单页的边缘。
 
-![](../images/6_31.png)
-正确
+<img src="../images/6_31.png" alt="" width=380 height=285 />   
+
+<p> <font color="green">(上图)可取</font></p>
 
 单个屏幕上不要多与一个浮动操作按钮。
 
-![](../images/6_32.png)
-错误
+<img src="../images/6_32.png" alt="" width=380 height=285 />   
+
+<p> <font color="red">(上图)不可取</font></p>
 
 不要将浮动操作按钮与屏幕上的每个元素都联系起来。
 
-![](../images/6_33.png)
-错误
+<img src="../images/6_33.png" alt="" width=380 height=285 />   
 
-
+<p> <font color="red">(上图)不可取</font></p>
